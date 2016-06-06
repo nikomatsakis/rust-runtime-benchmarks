@@ -1,0 +1,28 @@
+[package]
+name = "rs_doom"
+version = "0.0.7"
+authors = ["Cristian Cobzarenco <cristi.cobzarenco@gmail.com>"]
+
+[[bin]]
+name = "rs_doom"
+
+[dependencies.game]
+path = "src/game"
+
+[dependencies.gfx]
+path = "src/gfx"
+
+[dependencies.wad]
+path = "src/wad"
+
+[dependencies.common]
+path = "src/common"
+
+[dependencies]
+getopts = "0.2.14"
+time = "0.1.34"
+env_logger = "0.3.2"
+log = "0.3.4"
+
+[dependencies.sdl2]
+path = "src/shims/sdl2"
