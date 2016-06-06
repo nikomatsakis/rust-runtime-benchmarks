@@ -4,3 +4,11 @@ in the wild. These benchmarks are a work in progress and should not be
 considered as anything but an internal way to track rustc's
 performance. Perhaps they may eventually evolve into a more standard
 "benchmark suite", but they are not there yet. =)
+
+Right now, using the "suite" is very manual: change into each
+directory and run `cargo bench`. One of the top priority items is to
+create a runner that will do that for you, record the results (along
+with compilation time, ideally) and allow you to compare those
+results. If you're interested, see [issue #2]. :)
+
+[issue #2]: https://github.com/nikomatsakis/rust-runtime-benchmarks/issues/2
