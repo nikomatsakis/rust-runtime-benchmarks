@@ -1,0 +1,9 @@
+[package]
+name = "regex-bench"
+version = "0.1.0"
+authors = ["Andrew Gallant <jamslam@gmail.com>"]
+publish = false
+
+[dependencies]
+lazy_static = "0.2"
+regex = "0.1.71"
